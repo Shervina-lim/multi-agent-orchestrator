@@ -1,0 +1,45 @@
+# Go artifacts
+/bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build output
+build/
+dist/
+
+# Go vendor
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Go test cache
+*.test
+
+# Dependency files
+go.sum
+
+# Env files
+.env
+
+# Docker
+**/infra/*.local
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+
+# Coverage
+coverage.out
+
+# VS Code workspace storage
+.vscode/**/workspaceStorage
