@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/example/picomanager/internal/rmq"
+	"github.com/Shervina-lim/multi-agent-orchestrator/internal/rmq"
 	"github.com/streadway/amqp"
 )
 

@@ -1,7 +1,7 @@
 package rmq
 
 import (
-	"github.com/example/picomanager/internal/logging"
+	"github.com/Shervina-lim/multi-agent-orchestrator/internal/logging"
 	"github.com/streadway/amqp"
 )
 

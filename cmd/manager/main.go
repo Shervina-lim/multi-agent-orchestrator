@@ -7,8 +7,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/example/picomanager/internal/manager"
-	"github.com/example/picomanager/internal/rmq"
+	"github.com/Shervina-lim/multi-agent-orchestrator/internal/manager"
+	"github.com/Shervina-lim/multi-agent-orchestrator/internal/rmq"
 	"github.com/google/uuid"
 )
 

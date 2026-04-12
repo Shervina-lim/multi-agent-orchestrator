@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/example/picomanager/internal/logging"
-	"github.com/example/picomanager/internal/rmq"
+	"github.com/Shervina-lim/multi-agent-orchestrator/internal/logging"
+	"github.com/Shervina-lim/multi-agent-orchestrator/internal/rmq"
 )
 
 type TaskStatus string

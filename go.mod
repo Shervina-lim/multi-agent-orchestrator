@@ -1,4 +1,4 @@
-module github.com/example/picomanager
+module github.com/Shervina-lim/multi-agent-orchestrator
 
 go 1.20
 
