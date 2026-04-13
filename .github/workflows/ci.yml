@@ -32,8 +32,9 @@ jobs:
       - name: Install dependencies
         run: go mod download
 
-      - name: Run unit tests
-        run: go test ./... -v
+      - name: Run unit tests (exclude integration tests)
+        run: |
+          go list ./... | grep -v '/tests' | xargs -r go test -v
 
   build:
     needs: unit-tests
