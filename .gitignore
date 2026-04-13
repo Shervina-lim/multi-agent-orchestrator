@@ -24,7 +24,7 @@ Thumbs.db
 *.test
 
 # Dependency files
-go.sum
+# (keep go.sum tracked for reproducible builds)
 
 # Env files
 .env
